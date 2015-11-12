@@ -1,0 +1,1 @@
+etc\mainDexClasses.bat --output maindex.keep .\build\intermediates\multi-dex\debug\allclasses.jar
