@@ -42,3 +42,6 @@ Command Line
 ```
 etc\mainDexClasses.bat --output maindex.keep .\build\intermediates\multi-dex\debug\allclasses.jar
 ```
+Proguard Rule in File<br/>
+/app/etc/mainDexClasses.rules
+[Link](https://github.com/eyyoung/CustomMainDexList/blob/master/app/etc/mainDexClasses.rules)
