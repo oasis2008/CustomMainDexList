@@ -13,11 +13,7 @@ task generateMainDexList(type: Exec) {
 
     //on linux
 //    commandLine './gen-main-dex'
-
-    //store the output instead of printing to the console:
     standardOutput = new ByteArrayOutputStream()
-
-    //extension method stopTomcat.output() can be used to obtain the output:
     ext.output = {
         return standardOutput.toString()
     }
