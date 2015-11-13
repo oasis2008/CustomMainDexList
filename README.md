@@ -32,6 +32,7 @@ afterEvaluate {
         dx.additionalParameters += '--multi-dex'
         dx.additionalParameters += "--main-dex-list=$projectDir/maindex.keep".toString() // enable the main-dex-list
         dx.additionalParameters += "--minimal-main-dex".toString() // enable the main-dex-list
+        //dx.additionalParameters += "--set-max-idx-number=50000" // set max idx count
     }
     dexDebug.dependsOn generateMainDexList
     dexRelease.dependsOn generateMainDexList
